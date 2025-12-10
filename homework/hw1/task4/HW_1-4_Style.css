@@ -1,0 +1,17 @@
+.black, .red{
+    display: inline;
+    background-color: #cdc9c9;
+    font-size: 60px;
+    margin-left: 20px;
+    padding: 5px 15px;
+}
+
+.black{color: black
+}
+
+.red{color: red
+}
+
+h2{
+    font-size: 40px;
+}

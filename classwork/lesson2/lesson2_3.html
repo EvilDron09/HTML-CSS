@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            height: 100vh;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            box-shadow: 10px 15px 52px 18px rgba(10,3,3,0.75);
+            border-radius: 50%;
+            border: 3px double gold;
+            transition: 1s;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            /*margin: 0 10px;*/
+        }
+        .box:hover{
+            border-radius: 5%;
+            width: 250px;
+            height: 250px;
+            background-color: darkblue;
+            transition: 1s;
+            /*transform: scale(1.25);*/
+        }
+        .black{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .black p{
+            color: antiquewhite;
+            /*text-align: center;*/
+        }
+        .black img{
+            width: 50%;
+        }
+        .red{
+            background-color: red;
+        }
+        .red a{
+            text-decoration: none;
+            color: darkgreen;
+        }
+        .red:hover a{
+            color: gold;
+            transition: 1s;
+        }
+        .indigo{
+            background-color: indigo;
+        }
+        .flex{
+            height: 100%;
+            background:linear-gradient(0deg,rgba(120, 195, 34, 1) 0%, rgba(45, 163, 253, 1) 100%);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
+    </style>
+
+</head>
+<body>
+<div class="flex">
+ <div class="box black">
+     <p>Lorem ipsum dolor.</p>
+     <img src="https://img.freepik.com/premium-vector/illustration-colorful-cat-with-pop-art-style_373096-980.jpg">
+</div>
+ <div class="box red"> <a href="lesson%202.1.html">Тиць</a></div>
+ <div class="box indigo"></div>
+ <div class="box indigo"></div>
+ <div class="box indigo"></div>
+ <div class="box indigo"></div>
+ <div class="box indigo"></div>
+ <div class="box indigo"></div>
+ <div class="box indigo"></div>
+</div>
+</body>
+</html>

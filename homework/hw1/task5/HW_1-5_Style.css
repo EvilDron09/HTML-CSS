@@ -1,6 +1,8 @@
 body {
-    background-image: url("https://cs13.pikabu.ru/post_img/big/2024/07/07/4/172032835115456342.jpg");
+    background-image: url(https://multiplex.ua/images/a7/22/a72222b73b8afd1a4aaa081308e11d48.jpeg);
     background-attachment: fixed;
+    background-size: cover;
+
 }
 
 h1,h2,p{
@@ -17,12 +19,13 @@ h1{
 h2{
     font-size: 40px;
     width: 400px;
+    color: #a2ecde;
 }
 
 p{
     font-size: 30px;
     display: inline-block;
-    color: #000000;
+    color: #ffffff;
 }
 
 img{
