@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*------------header---------*/
+.active-link{
+    color: #ef0736;
+}
+header{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:"Orbitron",sans-serif;
+}
+header div{
+    text-align: center;
+}
+header div h3{
+    font-size: 16px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav a{
+    color: gray;
+    font-size: 20px;
+}
+/*--------------main-------------*/
+main{
+    height: 90vh;
+    background-image: url("https://www.schwarzwaldportal.com/wp-content/uploads/2023/12/misty-mountain-landscape-stockpack-deposit-photos-scaled.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family:"Orbitron",sans-serif;
+    padding-top: 50px;
+}
+main p{
+    font-size: 20px;
+}
+main h1{
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+main button{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    transition: 2s;
+}
+main button:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: #2e6263;
+}
