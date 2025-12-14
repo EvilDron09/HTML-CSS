@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 50px;
+}
+
+a{
+    font-size: 60px;
+    color: black;
+}
+
+div{
+    margin: 30px 0;
+}
+
+#head{
+    background: #8f3535;
+}
+
+#center{
+    background: lightskyblue;
+}
+
+#bottom{
+    background: #70ec70;
+}
+
+#bottom div{
+    margin-top: -100px;
+}
+
