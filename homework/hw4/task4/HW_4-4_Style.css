@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+nav{
+    height: 5vh;
+}
+
+nav, footer{
+    background: #D9D9D9;
+}
+
+main {
+    height: 86vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 59vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.one{
+    width: 29vw;
+    background: #A4A4A4;
+}
+
+.two{
+    width: 30vw;
+    background: #C1C1C1;
+}
+
+.right{
+    width: 41vw;
+}
+
+.first{
+    height: 43vh;
+    background: #7F7A7A;
+}
+
+.second{
+    height: 43vh;
+    background: #6B6161;
+}
+
+footer{
+    height: 9vh;
+}
