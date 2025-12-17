@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 30px solid gold;
+    border-right: 30px solid indigo;
+    border-left: 30px solid blue;
+    border-bottom: 30px solid red;
+    animation: circle 3s linear infinite alternate;
+}
+
+@keyframes circle {
+    50%{
+       transform: scale(1.2) rotate(180deg);
+    }
+
+    100%{
+        transform: scale(0.8) rotate(360deg);
+    }
+}

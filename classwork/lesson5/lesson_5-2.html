@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        .card{
+            width: 200px;
+            height: 200px;
+        }
+        .bl{
+            background-color: blue;
+        }
+        .gr{
+            background-color: green;
+            order: -1;
+        }
+        .ye{
+            background-color: yellow;
+            order: 2;
+        }
+        .pi{
+            background-color: pink;
+            order: 1;
+        }
+        .or{
+            background-color: orange;
+            order: -2;
+        }
+
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="card bl"></div>
+    <div class="card gr"></div>
+    <div class="card ye"></div>
+    <div class="card pi"></div>
+    <div class="card or"></div>
+</div>
+</body>
+</html>

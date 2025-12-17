@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    animation: drago 5s linear infinite ;
+}
+
+@keyframes drago {
+    0%{
+        transform: translatex(60vw);
+
+    }
+
+
+    50%{
+        transform:scale(1.5) rotateY(180deg);
+    }
+
+    100%{
+        transform: translate(-60vw) rotate(180deg) ;
+
+    }
+
+}

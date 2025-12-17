@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation: box 4s linear infinite alternate;
+}
+
+@keyframes box {
+    50%{
+      transform: scale(1.2) rotateY(90deg);
+        background: blue;
+    }
+    100%{
+        transform: scale(1.3);
+        background: gold;
+    }
+}
