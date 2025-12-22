@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div p:first-child{
+            color: chocolate;
+        }
+        div :last-child{
+            color: crimson;
+        }
+        div p::first-letter{
+            color: red;
+            font-size: 20px;
+        }
+        /*div p::first-line{*/
+        /*    color: darkgoldenrod;*/
+        /*}*/
+        div p:last-of-type{
+            color: #950d56;
+        }
+        ul li:nth-child(2n+4){
+            color: aqua;
+        }
+        /*ul li:nth-last-child(even){*/
+        /*    color: aqua;*/
+        /*}*/
+        /*ul li:nth-last-child(odd){*/
+        /*    color: #1c5959;*/
+        /*}*/
+
+
+    </style>
+</head>
+<body>
+<div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad libero neque omnis rerum. Aliquam, atque dignissimos dolor ducimus enim facere itaque iusto natus nisi perspiciatis provident reiciendis repellat tempore voluptates.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <span>Lorem.</span><span>Accusamus.</span><span>Ipsam!</span><span>Mollitia!</span><span>Consequuntur.</span>
+</div>
+<ul>
+    <li>Lorem ipsum dolor.</li>
+    <li>Ab accusantium, natus!</li>
+    <li>Architecto eaque, quisquam!</li>
+    <li>Quidem, reprehenderit, voluptatem.</li>
+    <li>Distinctio, provident ut!</li>
+    <li>Nostrum sapiente, voluptatum!</li>
+    <li>At nemo, odit!</li>
+    <li>Assumenda, recusandae, vel.</li>
+    <li>Esse, maxime ratione.</li>
+    <li>Id placeat, provident.</li>
+    <li>Delectus in, tempora!</li>
+    <li>Beatae, distinctio, laboriosam!</li>
+    <li>Ipsum, placeat, quasi.</li>
+    <li>Dolor, doloremque repellendus.</li>
+    <li>Aut, laudantium, voluptas.</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #008b8b;
+}
+
+.login-to-page{
+    width: 35vw;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border-radius: 0.5vw;
+    gap: 1.5vw;
+}
+
+.login-to-page>div{
+    width: 100%;
+    height: 6vw;
+    background-color: rgba(186, 182, 182, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-to-page>div>h3{
+    font-size: 40px;
+}
+
+.login-to-page form{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.login-to-page>form>input{
+    width: 100%;
+    height: 2vw;
+}
+
+.login-to-page>form>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form>div>label{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.entrance{
+    width: 5.5vw;
+    height: 1.8vw;
+    border-radius: 0.5vw;
+    font-size: 14px;
+    border: 1px #7c7b7b solid;
+}

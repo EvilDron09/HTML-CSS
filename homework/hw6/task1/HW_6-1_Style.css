@@ -1,0 +1,22 @@
+.even_pink>ul>li:nth-child(even){
+    color: pink;
+}
+
+.odd_22px>ul>li:nth-child(odd){
+    font-size: 22px;
+}
+
+.after_2n_4>ul>li:nth-child(2n+4)::after{
+    content:"!";
+    color: red;
+}
+
+.last_purple>ul>li:last-child{
+    color: purple;
+}
+
+.first_letters_30px_and_red>ul>li:first-letter{
+    font-size: 30px;
+    color: red;
+}
+

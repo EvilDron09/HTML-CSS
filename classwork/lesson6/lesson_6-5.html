@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        form sup{
+            color: red;
+        }
+        textarea{
+            resize: none;
+            width: 150px;
+        }
+        .form-registration{
+            border: 3px solid blue;
+            width: 30%;
+            border-radius: 20px;
+            padding: 50px;
+        }
+        input[type="text"]{
+            background-color: darkgoldenrod;
+            border: 2px solid red;
+            border-radius: 2px;
+            color: #5539d3;
+            font-family: sans-serif;
+        }
+        input[type="text"]::placeholder{
+            color: green;
+        }
+        input[type="text"]:focus{
+            outline: 2px solid gold;
+        }
+        .yes{
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 1px solid gray;
+            margin-bottom: -2px;
+            border-radius: 50%;
+        }
+        .yes:checked{
+            background-image: url("https://png.pngtree.com/png-vector/20241001/ourlarge/pngtree-cat-logo-png-image_13997085.png");
+            background-size:cover
+        }
+
+    </style>
+</head>
+<body>
+<form class="form-registration">
+    <label for="name"> Ведіть своє ім'я:</label>
+    <input type="text" name="name" id="name" placeholder="Anna" required><sup>*</sup>
+
+    <label for="email"> Ведіть свій email:</label>
+    <input type="email" name="email" id="email" placeholder="aeitgl@gmail.com" required><sup>*</sup>
+
+    <label for="password"> Ведіть своє ім'я:</label>
+    <input type="password" name="password" id="password" placeholder="qwert" required><sup>*</sup>
+
+    <label for="age"> Ведіть свій вік:</label>
+    <input type="number" name="age" id="age" min="18" max="100">
+
+    <label> Стать</label>
+    <label><input type="radio" name="gender" value="male">Чоловіча</label>
+    <label><input type="radio" name="gender" value="female">Жіноча</label>
+
+    <label for="lorem"> Оберіть країну</label>
+    <select id="lorem">
+        <option value=""></option>
+        <option value="ua">Україна</option>
+        <option value="usa">США</option>
+        <option value="ca">Канада</option>
+    </select>
+    <label for="phone"></label>
+    <select id="phone">
+        <option value=""></option>
+        <optgroup label="Apple">
+            <option value="x">IPhon X</option>
+            <option value="xs">IPhon XS</option>
+            <option value="xr">IPhon XR</option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option value="S21">Samsung S21</option>
+            <option value="M33">Samsung M33</option>
+            <option value="A55">Samsung A55</option>
+        </optgroup>
+    </select>
+    <label for="comment">
+<textarea id="comment" rows="4" cols="30"></textarea>
+    </label>
+    <div>
+        <input type="submit">
+        <input type="reset">
+    </div>
+</form>
+<label>
+    <label>
+        <input type="checkbox" class="yes">Yes
+    </label>
+</label>
+</body>
+</html>
