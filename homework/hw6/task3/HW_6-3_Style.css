@@ -43,9 +43,13 @@ section{
     padding: 5vw 0 2vw 0;
 }
 
-.entrance>input[type="text"],[type="password"]{
-    height: 3vw;
+form{
     width: 70%;
+}
+
+.entrance>form>input[type="text"],[type="password"]{
+    height: 3vw;
+    width: 100%;
     margin: 5px 0;
     border: 2px solid rgba(181, 178, 178, 0.39);
     border-radius: 5px;
@@ -59,9 +63,9 @@ section{
     justify-content: center;
     align-items: center;
 }
-.entrance>div>input[type="submit"]{
+.entrance>div>form>input[type="submit"]{
     height: 2.8vw;
-    width: 71.5%;
+    width: 100%;
     background: #68b5fa;
     border: none;
     border-radius: 10px;
