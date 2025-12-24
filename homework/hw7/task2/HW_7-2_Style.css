@@ -15,22 +15,30 @@ body{
     font-family: 'Inter',sans-serif;
 }
 
-.w-1400px{
-    width: 1400px;
+.w-1153px{
+    width: 1153px;
+
+
 }
 
 /*----------------header---------------*/
 
 header{
-    width: 1400px;
+    width: 100%;
     height: 113px;
     background: #24204A;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.w-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 header h4{
@@ -40,7 +48,6 @@ header h4{
     font-weight: 700;
     line-height: normal;
     opacity: 0.6;
-    margin-left: 115px;
 
 }
 
@@ -49,7 +56,6 @@ header ul{
     justify-content: center;
     align-items: center;
     gap: 64px;
-    margin-right: 115px;
 }
 
 header a{
@@ -62,14 +68,22 @@ header a{
 }
 
 /*------------main-section-one---------------*/
+main{
+    width: 100%
+}
 
 main section:first-child{
     height: 692px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 208px;
     background: #24204A;
+}
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 208px;
 }
 
 .one-postion{
@@ -77,7 +91,6 @@ main section:first-child{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    margin-left: 115px;
     gap: 32px;
     padding-top: 85px;
 
@@ -133,7 +146,7 @@ main section:first-child{
 }
 
 .lamp{
-    margin: 67px 115px 0 0;
+    margin-top: 67px;
     width: 375px;
     height: 411px;
     border-radius: 8px;
@@ -154,17 +167,23 @@ main section:last-child{
     height: 764px;
     background: #071341;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two{
+    display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
 }
 
 .info{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 73px;
-    margin: 50px 115px 55px 115px;
+    margin: 50px 0 55px 0;
 }
 .info>div{
     display: flex;
@@ -242,10 +261,10 @@ main section:last-child h4{
 }
 
 .cards{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 32px;
 }
 
 .cards>div{
@@ -275,6 +294,16 @@ main section:last-child h4{
 /*-----------footer----------*/
 footer{
     background: #071341;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer>iframe{
+    width: 100%;
+    height: 664px;
 }
 
 footer div{
