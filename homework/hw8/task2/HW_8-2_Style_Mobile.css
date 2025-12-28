@@ -1,0 +1,16 @@
+@media screen and (max-width: 719px){
+    section{
+        width: 343px;
+        flex-direction: column;
+        margin: 32px 16px;
+
+    }
+
+    section div{
+        width: 247px;
+    }
+
+    section div:nth-child(-n+2){
+        margin-bottom: 40px;
+    }
+}

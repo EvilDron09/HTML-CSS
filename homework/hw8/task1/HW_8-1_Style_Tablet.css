@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) and (max-width: 1270px) {
+    .card {
+        width: 720px;
+    }
+
+    .card>div {
+        width: 218px;
+        height: 263px;
+    }
+
+}
