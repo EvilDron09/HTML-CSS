@@ -290,6 +290,14 @@ main section:last-child h4{
     line-height: 20px;
     letter-spacing: 0.8px;
 }
+.map{
+    width: 100%;
+    height: 664px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
 
 /*-----------footer----------*/
 footer{
@@ -301,10 +309,7 @@ footer{
     flex-direction: column;
 }
 
-footer>iframe{
-    width: 100%;
-    height: 664px;
-}
+
 
 footer div{
     height: 94px;
